@@ -21,6 +21,7 @@ export default function Page() {
             <div className="max-w-4xl">
               <h1 className="text-2xl font-semibold text-gray-900">TotsyList</h1>
               <p className="text-gray-600 mt-1">For all your kid / baby related product needs</p>
+            {/* Updated text for broader appeal */}
             </div>
           </header>
 
