@@ -77,8 +77,8 @@ Return ONLY the JSON, no other text.`;
     
     const json = JSON.parse(cleanText);
     console.log("Generated categories:", json.categories?.length || 0);
-    console.log("Category names:", json.categories?.map(cat => cat.category) || []);
-    console.log("Items per category:", json.categories?.map(cat => `${cat.category}: ${cat.items?.length || 0} items`) || []);
+    console.log("Category names:", json.categories?.map((cat: any) => cat.category) || []);
+    console.log("Items per category:", json.categories?.map((cat: any) => `${cat.category}: ${cat.items?.length || 0} items`) || []);
 
     return NextResponse.json(json, { status: 200 });
     
