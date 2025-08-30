@@ -20,7 +20,7 @@ export default function Page() {
           <header className="bg-white border-b border-gray-200 px-6 py-4">
             <div className="max-w-4xl">
               <h1 className="text-2xl font-semibold text-gray-900">TotsyList</h1>
-              <p className="text-gray-600 mt-1">Your personal assistant for all your baby product needs</p>
+              <p className="text-gray-600 mt-1">For all your kid / baby related product needs</p>
             </div>
           </header>
 
